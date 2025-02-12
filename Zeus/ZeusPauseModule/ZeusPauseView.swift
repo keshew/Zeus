@@ -48,7 +48,7 @@ struct ZeusPauseView: View {
                                     .frame(width: 482, height: 227)
                                 
                                 Text("As Zeus, the supreme god of Olympus, waits in anticipation, the world around him stands still. Time itself seems to have halted, and even the wind ceases to rustle the leaves. Heroes, poised for battle, remain frozen in their stances, while the gods watching from above hold their breath. Zeus, with a lightning bolt clutched in his hand, surveys the battlefield, awaiting the precise moment to intervene. His eyes, filled with wisdom and power, scrutinize every warrior and every movement. He knows that his decision will shape the destinies of many.")
-                                    .SkrampCyr(size: 15, outlineWidth: 0.3)
+                                    .Cartoon(size: 15, outlineWidth: 0.3)
                                     .frame(width: 417, height: 219)
                                     .multilineTextAlignment(.center)
                                 

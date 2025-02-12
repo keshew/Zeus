@@ -58,7 +58,7 @@ struct ZeusNovelView: View {
                                     .frame(width: 352, height: 150)
                                 
                                 Text(chapterModel.question[zeusNovelModel.currentIndex])
-                                    .SkrampCyr(size: 20)
+                                    .Cartoon(size: 20)
                                     .frame(width: 280, height: 100)
                             }
                             .padding(.leading, 150)

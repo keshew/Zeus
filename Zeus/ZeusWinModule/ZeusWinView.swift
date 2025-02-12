@@ -65,10 +65,10 @@ struct ZeusWinView: View {
                                 VStack(spacing: -50) {
                                     VStack(spacing: -35) {
                                         Text("CONGRATULATION!")
-                                            .SkrampCyr(size: 30)
+                                            .Cartoon(size: 30)
                                         
                                         Text("You did a great job and here's your\nreward.")
-                                            .SkrampCyr(size: 20)
+                                            .Cartoon(size: 20)
                                             .frame(width: 418, height: 114)
                                             .multilineTextAlignment(.center)
                                     }.offset(y: -20)

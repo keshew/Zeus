@@ -10,11 +10,11 @@ extension Text {
             .outlineText(color: colorOutline, width: outlineWidth)
     }
     
-    func SkrampCyr(size: CGFloat,
+    func Cartoon(size: CGFloat,
                 color: Color = .white,
-                    outlineWidth: CGFloat = 1,
+                   outlineWidth: CGFloat = 0.5,
                colorOutline: Color = .black) -> some View {
-        self.font(.custom("SkrampCyr", size: size))
+        self.font(.custom("CartoonistkooKyyrillic", size: size))
             .foregroundColor(color)
             .outlineText(color: colorOutline, width: outlineWidth)
     }

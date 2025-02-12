@@ -46,7 +46,7 @@ struct ZeusChapterView: View {
                         .padding(.trailing, 55)
                         
                         Text(zeusChapterModel.contact.arrayText[zeusChapterModel.currentIndex])
-                            .SkrampCyr(size: 30)
+                            .Cartoon(size: 30)
                             .multilineTextAlignment(.center)
                         
                         VStack(spacing: 20) {
@@ -122,7 +122,7 @@ struct ZeusChapterView: View {
                             .padding(.trailing, 55)
                             
                             Text("LOCKED")
-                                .SkrampCyr(size: 80, color: .yellow)
+                                .Cartoon(size: 80, color: .yellow)
                             
                             
                             HStack {

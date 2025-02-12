@@ -4,6 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Kokky.ttf</string>
 		<string>SkrampCyr-Regular.ttf</string>
 		<string>yeast.otf</string>
 	</array>

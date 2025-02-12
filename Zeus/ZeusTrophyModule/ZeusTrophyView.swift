@@ -34,11 +34,11 @@ struct ZeusTrophyView: View {
                     
                     VStack(spacing: 5) {
                         Text(zeusTrophyModel.currentIndex == 0 ? "1\\2" : "2\\2")
-                            .SkrampCyr(size: 20)
+                            .Cartoon(size: 20)
                         
                         
                         Text(zeusTrophyModel.currentIndex == 0 ? "SWIPE RIGHT TO NEXT PAGE" : "SWIPE LEFT TO PREV PAGE")
-                            .SkrampCyr(size: 20)
+                            .Cartoon(size: 20)
                     }
                     .position(x: geometry.size.width / 3.15, y: geometry.size.height / 1.05)
                     

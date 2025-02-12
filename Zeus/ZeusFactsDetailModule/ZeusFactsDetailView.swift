@@ -49,11 +49,11 @@ struct ZeusFactsDetailView: View {
                                 
                                 VStack {
                                     Text("Fact \(currentIndex + 1)")
-                                        .SkrampCyr(size: 30)
+                                        .Cartoon(size: 30)
                                         .multilineTextAlignment(.center)
                                     
                                     Text(zeusFactsDetailModel.contact.factsArry[currentIndex])
-                                        .SkrampCyr(size: 20)
+                                        .Cartoon(size: 20)
                                         .frame(width: 418, height: 114)
                                     
                                 }
@@ -64,10 +64,10 @@ struct ZeusFactsDetailView: View {
                             Spacer()
                             VStack {
                                 Text("\(currentIndex + 1)\\10")
-                                    .SkrampCyr(size: 20)
+                                    .Cartoon(size: 20)
                                 
                                 Text("SWIPE left\\right TO next\\prev FACT")
-                                    .SkrampCyr(size: 20)
+                                    .Cartoon(size: 20)
                             }
                             .padding(.top)
                         }

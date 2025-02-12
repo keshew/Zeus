@@ -9,7 +9,7 @@ struct ZeusFactsDetailModel {
                      "Athena, Zeus's daughter, was the goddess of wisdom, war, and crafts. She was born fully armed from Zeus's head.",
                      "Apollo and Artemis were twins, the children of Zeus and Leto. Apollo was the god of the sun, music, and prophecy, while Artemis was the goddess of the hunt and the moon.",
                      "Ares was the god of war, and Aphrodite was the goddess of love and beauty. They were lovers, despite Aphrodite being married to Hephaestus.",
-                     "Hephaestus, the god of blacksmiths and fire, was the son of Zeus and Hera. He was cast out of Olympus due to his ugliness but later returned and became the master blacksmith of the gods.",
+                     "Hephaestus, the god of blacksmiths and fire, was the son of Zeus and Hera. He was cast out of Olympus due to his ugliness but later\n returned and became the master blacksmith of the gods.",
                      "Hermes, the son of Zeus and Maia, was the god of trade, travel, and thievery. He was also the messenger of the gods and the guide of souls to the underworld."]
 }
 

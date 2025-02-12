@@ -64,10 +64,10 @@ struct ZeusLoseView: View {
                                 
                                 VStack(spacing: 0) {
                                     Text("NICE TRY!")
-                                        .SkrampCyr(size: 30)
+                                        .Cartoon(size: 30)
                                     
                                     Text("You're almost\n done.\nTry again.")
-                                        .SkrampCyr(size: 20)
+                                        .Cartoon(size: 20)
                                         .frame(width: 418, height: 114)
                                         .multilineTextAlignment(.center)
                                 }

@@ -67,10 +67,10 @@ struct ZeusMiniGamesView: View {
                             
                             VStack {
                                 Text(zeusMiniGamesModel.currentIndex == 0 ? "Catch the lightning" : "Set all part of puzzle")
-                                    .SkrampCyr(size: 15, outlineWidth: 0.7)
+                                    .Cartoon(size: 15, outlineWidth: 0.7)
                                 
-                                Text(zeusMiniGamesModel.currentIndex == 0 ? "You need to catch the lightning bolts\n that appear on the screen." : "You need to set up all part of puzzles\n that on your screen")
-                                    .SkrampCyr(size: 10, outlineWidth: 0.4)
+                                Text(zeusMiniGamesModel.currentIndex == 0 ? "You need to catch the lightning\n bolts that appear on the screen." : "You need to set up all part\n of puzzles that on your screen")
+                                    .Cartoon(size: 10, outlineWidth: 0.4)
                                     .multilineTextAlignment(.center)
                             }
                       
@@ -101,11 +101,11 @@ struct ZeusMiniGamesView: View {
                         
                         VStack {
                             Text(zeusMiniGamesModel.currentIndex == 0 ? "1\\2" : "2\\2")
-                                .SkrampCyr(size: 20)
+                                .Cartoon(size: 20)
                                
                             
                             Text("SWIPE left\\right TO next\\prev GAME")
-                                .SkrampCyr(size: 20)
+                                .Cartoon(size: 20)
                         }
                         .offset(y: -5)
                         .padding(.top)

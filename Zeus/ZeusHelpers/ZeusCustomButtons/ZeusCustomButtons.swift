@@ -88,7 +88,7 @@ struct Trophy: View {
             
             VStack {
                 Text(name)
-                    .SkrampCyr(size: 10, outlineWidth: 0.7)
+                    .Cartoon(size: 9, outlineWidth: 0.5)
                 
                 HStack(spacing: 0) {
                     Image(.circleBrown)
@@ -96,7 +96,7 @@ struct Trophy: View {
                         .frame(width: 25, height: 25)
                     
                     Text(desc)
-                        .SkrampCyr(size: 7, outlineWidth: 0.4)
+                        .Cartoon(size: 6, outlineWidth: 0.5)
                         .multilineTextAlignment(.center)
                         .frame(width: 80, height: 24)
                 }
@@ -130,7 +130,7 @@ struct TextBack: View {
                 .frame(width: 482, height: 221)
             
             Text(text)
-                .SkrampCyr(size: 20, outlineWidth: 0.3)
+                .Cartoon(size: 20, outlineWidth: 0.3)
                 .multilineTextAlignment(.center)
                 .frame(width: 440)
             
@@ -162,7 +162,7 @@ struct AnswerButton: View {
                     .frame(width: 161, height: 66)
                 
                 Text(text)
-                    .SkrampCyr(size: 12, outlineWidth: 0.3)
+                    .Cartoon(size: 11, outlineWidth: 0.3)
                     .frame(width: 140, height: 44)
                     .minimumScaleFactor(0.8)
             }
@@ -189,7 +189,7 @@ struct BonusAdd: View {
         ZStack {
             HStack(spacing: 5) {
                 Text("+1")
-                    .SkrampCyr(size: 20)
+                    .Cartoon(size: 20)
                     .offset(y: 2)
                 
                 Image(image)
@@ -216,7 +216,7 @@ struct NewFact: View {
             
             VStack {
                 Text("NEW FACT\nUNLOCKED!")
-                    .SkrampCyr(size: 15, outlineWidth: 0.7)
+                    .Cartoon(size: 15, outlineWidth: 0.7)
                     .multilineTextAlignment(.center)
                     .offset(y: 5)
             }

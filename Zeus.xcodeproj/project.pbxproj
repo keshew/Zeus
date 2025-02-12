@@ -70,6 +70,7 @@
 		86ACCA662D5B914E003181A3 /* ZeusPuzzleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA632D5B914E003181A3 /* ZeusPuzzleModel.swift */; };
 		86ACCA672D5B914E003181A3 /* ZeusPuzzleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA642D5B914E003181A3 /* ZeusPuzzleViewModel.swift */; };
 		86ACCA6A2D5BBBB9003181A3 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA692D5BBBB9003181A3 /* UserDefaultsManager.swift */; };
+		86C7D7912D5CC02200E7D04B /* Kokky.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86C7D7902D5CC01600E7D04B /* Kokky.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,6 +139,7 @@
 		86ACCA632D5B914E003181A3 /* ZeusPuzzleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPuzzleModel.swift; sourceTree = "<group>"; };
 		86ACCA642D5B914E003181A3 /* ZeusPuzzleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPuzzleViewModel.swift; sourceTree = "<group>"; };
 		86ACCA692D5BBBB9003181A3 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		86C7D7902D5CC01600E7D04B /* Kokky.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kokky.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 		86344FEF2D5567D900CBAE5A /* ZeusFont */ = {
 			isa = PBXGroup;
 			children = (
+				86C7D7902D5CC01600E7D04B /* Kokky.ttf */,
 				869687062D5646EE00CCB852 /* SkrampCyr-Regular.ttf */,
 				86344FFA2D55691D00CBAE5A /* yeast.otf */,
 			);
@@ -528,6 +531,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C7D7912D5CC02200E7D04B /* Kokky.ttf in Resources */,
 				86439F9B2D5C709E00560F54 /* menu.wav in Resources */,
 				86439F9D2D5C709E00560F54 /* firstStage.mp3 in Resources */,
 				869687072D56470000CCB852 /* SkrampCyr-Regular.ttf in Resources */,

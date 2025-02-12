@@ -31,7 +31,7 @@ struct ZeusMenuView: View {
                             Spacer()
                             
                             Text("MYTHIC SAGA")
-                                .SkrampCyr(size: 60)
+                                .Cartoon(size: 60)
                             
                             Spacer()
                             

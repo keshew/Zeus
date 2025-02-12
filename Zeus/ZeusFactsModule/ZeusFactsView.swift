@@ -76,10 +76,10 @@ struct ZeusFactsView: View {
                             Spacer()
                             VStack {
                                 Text(zeusFactsModel.currentIndex == 0 ? "1\\2" : "2\\2")
-                                    .SkrampCyr(size: 20)
+                                    .Cartoon(size: 20)
                                 
                                 Text(zeusFactsModel.currentIndex == 0 ? "SWIPE RIGHT TO NEXT PAGE" : "SWIPE LEFT TO PREV PAGE")
-                                    .SkrampCyr(size: 20)
+                                    .Cartoon(size: 20)
                             }
                             .padding(.top)
                         }
