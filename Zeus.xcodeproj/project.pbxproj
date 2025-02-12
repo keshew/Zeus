@@ -8,17 +8,136 @@
 
 /* Begin PBXBuildFile section */
 		86344FDE2D5567B700CBAE5A /* ZeusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86344FDD2D5567B700CBAE5A /* ZeusApp.swift */; };
-		86344FE02D5567B700CBAE5A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86344FDF2D5567B700CBAE5A /* ContentView.swift */; };
 		86344FE22D5567B800CBAE5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86344FE12D5567B800CBAE5A /* Assets.xcassets */; };
 		86344FE52D5567B800CBAE5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86344FE42D5567B800CBAE5A /* Preview Assets.xcassets */; };
+		86344FEE2D5567D700CBAE5A /* ZeusCustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86344FED2D5567D700CBAE5A /* ZeusCustomButtons.swift */; };
+		86344FF22D5567E900CBAE5A /* ZeusImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86344FF12D5567E900CBAE5A /* ZeusImageName.swift */; };
+		86344FF52D55682000CBAE5A /* ZeusTextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86344FF42D55682000CBAE5A /* ZeusTextExtension.swift */; };
+		86344FF92D55686400CBAE5A /* ZeusTextOutlineExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86344FF82D55686400CBAE5A /* ZeusTextOutlineExtension.swift */; };
+		86344FFB2D55693700CBAE5A /* yeast.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86344FFA2D55691D00CBAE5A /* yeast.otf */; };
+		863450012D5569AE00CBAE5A /* ZeusLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86344FFE2D5569AE00CBAE5A /* ZeusLoadingView.swift */; };
+		863450022D5569AE00CBAE5A /* ZeusLoadingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86344FFF2D5569AE00CBAE5A /* ZeusLoadingModel.swift */; };
+		863450032D5569AE00CBAE5A /* ZeusLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863450002D5569AE00CBAE5A /* ZeusLoadingViewModel.swift */; };
+		8636C01A2D593BF500754163 /* ZeusChapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8636C0172D593BF500754163 /* ZeusChapterView.swift */; };
+		8636C01B2D593BF500754163 /* ZeusChapterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8636C0182D593BF500754163 /* ZeusChapterModel.swift */; };
+		8636C01C2D593BF500754163 /* ZeusChapterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8636C0192D593BF500754163 /* ZeusChapterViewModel.swift */; };
+		86439F942D5C703A00560F54 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86439F932D5C703A00560F54 /* AudioManager.swift */; };
+		86439F9B2D5C709E00560F54 /* menu.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86439F972D5C709E00560F54 /* menu.wav */; };
+		86439F9C2D5C709E00560F54 /* secondStage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86439F982D5C709E00560F54 /* secondStage.mp3 */; };
+		86439F9D2D5C709E00560F54 /* firstStage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86439F992D5C709E00560F54 /* firstStage.mp3 */; };
+		86439F9E2D5C709E00560F54 /* thirdStage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86439F9A2D5C709E00560F54 /* thirdStage.mp3 */; };
+		8676AA202D59F27E00EC6396 /* ZeusFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676AA1D2D59F27E00EC6396 /* ZeusFactsView.swift */; };
+		8676AA212D59F27E00EC6396 /* ZeusFactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676AA1E2D59F27E00EC6396 /* ZeusFactsModel.swift */; };
+		8676AA222D59F27E00EC6396 /* ZeusFactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676AA1F2D59F27E00EC6396 /* ZeusFactsViewModel.swift */; };
+		8676AA272D59FA3500EC6396 /* ZeusMiniGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676AA242D59FA3500EC6396 /* ZeusMiniGamesView.swift */; };
+		8676AA282D59FA3500EC6396 /* ZeusMiniGamesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676AA252D59FA3500EC6396 /* ZeusMiniGamesModel.swift */; };
+		8676AA292D59FA3500EC6396 /* ZeusMiniGamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676AA262D59FA3500EC6396 /* ZeusMiniGamesViewModel.swift */; };
+		8676AA2E2D5A167B00EC6396 /* ZeusPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676AA2B2D5A167B00EC6396 /* ZeusPlayView.swift */; };
+		8676AA2F2D5A167B00EC6396 /* ZeusPlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676AA2C2D5A167B00EC6396 /* ZeusPlayModel.swift */; };
+		8676AA302D5A167B00EC6396 /* ZeusPlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676AA2D2D5A167B00EC6396 /* ZeusPlayViewModel.swift */; };
+		8676AA352D5A43E800EC6396 /* ZeusNovelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676AA322D5A43E800EC6396 /* ZeusNovelView.swift */; };
+		8676AA362D5A43E800EC6396 /* ZeusNovelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676AA332D5A43E800EC6396 /* ZeusNovelModel.swift */; };
+		8676AA372D5A43E800EC6396 /* ZeusNovelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676AA342D5A43E800EC6396 /* ZeusNovelViewModel.swift */; };
+		869686FC2D5635CD00CCB852 /* ZeusPrehistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869686F92D5635CD00CCB852 /* ZeusPrehistoryView.swift */; };
+		869686FD2D5635CD00CCB852 /* ZeusPrehistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869686FA2D5635CD00CCB852 /* ZeusPrehistoryModel.swift */; };
+		869686FE2D5635CD00CCB852 /* ZeusPrehistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869686FB2D5635CD00CCB852 /* ZeusPrehistoryViewModel.swift */; };
+		869687032D5640C700CCB852 /* ZeusMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869687002D5640C700CCB852 /* ZeusMenuView.swift */; };
+		869687042D5640C700CCB852 /* ZeusMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869687012D5640C700CCB852 /* ZeusMenuModel.swift */; };
+		869687052D5640C700CCB852 /* ZeusMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869687022D5640C700CCB852 /* ZeusMenuViewModel.swift */; };
+		869687072D56470000CCB852 /* SkrampCyr-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 869687062D5646EE00CCB852 /* SkrampCyr-Regular.ttf */; };
+		8696870C2D56521300CCB852 /* ZeusTrophyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869687092D56521300CCB852 /* ZeusTrophyView.swift */; };
+		8696870D2D56521300CCB852 /* ZeusTrophyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8696870A2D56521300CCB852 /* ZeusTrophyModel.swift */; };
+		8696870E2D56521300CCB852 /* ZeusTrophyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8696870B2D56521300CCB852 /* ZeusTrophyViewModel.swift */; };
+		86ACCA3B2D5B21CE003181A3 /* ZeusFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA382D5B21CE003181A3 /* ZeusFinalView.swift */; };
+		86ACCA3C2D5B21CE003181A3 /* ZeusFinalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA392D5B21CE003181A3 /* ZeusFinalModel.swift */; };
+		86ACCA3D2D5B21CE003181A3 /* ZeusFinalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA3A2D5B21CE003181A3 /* ZeusFinalViewModel.swift */; };
+		86ACCA422D5B63CF003181A3 /* ZeusFactsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA3F2D5B63CF003181A3 /* ZeusFactsDetailView.swift */; };
+		86ACCA432D5B63CF003181A3 /* ZeusFactsDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA402D5B63CF003181A3 /* ZeusFactsDetailModel.swift */; };
+		86ACCA442D5B63CF003181A3 /* ZeusFactsDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA412D5B63CF003181A3 /* ZeusFactsDetailViewModel.swift */; };
+		86ACCA492D5B6868003181A3 /* ZeusCatchLightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA462D5B6868003181A3 /* ZeusCatchLightView.swift */; };
+		86ACCA4A2D5B6868003181A3 /* ZeusCatchLightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA472D5B6868003181A3 /* ZeusCatchLightModel.swift */; };
+		86ACCA4B2D5B6868003181A3 /* ZeusCatchLightViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA482D5B6868003181A3 /* ZeusCatchLightViewModel.swift */; };
+		86ACCA502D5B7AD8003181A3 /* ZeusLoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA4D2D5B7AD8003181A3 /* ZeusLoseView.swift */; };
+		86ACCA512D5B7AD8003181A3 /* ZeusLoseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA4E2D5B7AD8003181A3 /* ZeusLoseModel.swift */; };
+		86ACCA522D5B7AD8003181A3 /* ZeusLoseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA4F2D5B7AD8003181A3 /* ZeusLoseViewModel.swift */; };
+		86ACCA572D5B7FE6003181A3 /* ZeusWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA542D5B7FE6003181A3 /* ZeusWinView.swift */; };
+		86ACCA582D5B7FE6003181A3 /* ZeusWinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA552D5B7FE6003181A3 /* ZeusWinModel.swift */; };
+		86ACCA592D5B7FE6003181A3 /* ZeusWinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA562D5B7FE6003181A3 /* ZeusWinViewModel.swift */; };
+		86ACCA5E2D5B8513003181A3 /* ZeusPauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA5B2D5B8513003181A3 /* ZeusPauseView.swift */; };
+		86ACCA5F2D5B8513003181A3 /* ZeusPauseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA5C2D5B8513003181A3 /* ZeusPauseModel.swift */; };
+		86ACCA602D5B8513003181A3 /* ZeusPauseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA5D2D5B8513003181A3 /* ZeusPauseViewModel.swift */; };
+		86ACCA652D5B914E003181A3 /* ZeusPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA622D5B914E003181A3 /* ZeusPuzzleView.swift */; };
+		86ACCA662D5B914E003181A3 /* ZeusPuzzleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA632D5B914E003181A3 /* ZeusPuzzleModel.swift */; };
+		86ACCA672D5B914E003181A3 /* ZeusPuzzleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA642D5B914E003181A3 /* ZeusPuzzleViewModel.swift */; };
+		86ACCA6A2D5BBBB9003181A3 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACCA692D5BBBB9003181A3 /* UserDefaultsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		86344FDA2D5567B700CBAE5A /* Zeus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zeus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86344FDD2D5567B700CBAE5A /* ZeusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusApp.swift; sourceTree = "<group>"; };
-		86344FDF2D5567B700CBAE5A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86344FE12D5567B800CBAE5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86344FE42D5567B800CBAE5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86344FED2D5567D700CBAE5A /* ZeusCustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusCustomButtons.swift; sourceTree = "<group>"; };
+		86344FF12D5567E900CBAE5A /* ZeusImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusImageName.swift; sourceTree = "<group>"; };
+		86344FF42D55682000CBAE5A /* ZeusTextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusTextExtension.swift; sourceTree = "<group>"; };
+		86344FF82D55686400CBAE5A /* ZeusTextOutlineExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusTextOutlineExtension.swift; sourceTree = "<group>"; };
+		86344FFA2D55691D00CBAE5A /* yeast.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yeast.otf; sourceTree = "<group>"; };
+		86344FFC2D55694F00CBAE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86344FFE2D5569AE00CBAE5A /* ZeusLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusLoadingView.swift; sourceTree = "<group>"; };
+		86344FFF2D5569AE00CBAE5A /* ZeusLoadingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusLoadingModel.swift; sourceTree = "<group>"; };
+		863450002D5569AE00CBAE5A /* ZeusLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusLoadingViewModel.swift; sourceTree = "<group>"; };
+		8636C0172D593BF500754163 /* ZeusChapterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusChapterView.swift; sourceTree = "<group>"; };
+		8636C0182D593BF500754163 /* ZeusChapterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusChapterModel.swift; sourceTree = "<group>"; };
+		8636C0192D593BF500754163 /* ZeusChapterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusChapterViewModel.swift; sourceTree = "<group>"; };
+		86439F932D5C703A00560F54 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		86439F972D5C709E00560F54 /* menu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = menu.wav; sourceTree = "<group>"; };
+		86439F982D5C709E00560F54 /* secondStage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = secondStage.mp3; sourceTree = "<group>"; };
+		86439F992D5C709E00560F54 /* firstStage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = firstStage.mp3; sourceTree = "<group>"; };
+		86439F9A2D5C709E00560F54 /* thirdStage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thirdStage.mp3; sourceTree = "<group>"; };
+		8676AA1D2D59F27E00EC6396 /* ZeusFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusFactsView.swift; sourceTree = "<group>"; };
+		8676AA1E2D59F27E00EC6396 /* ZeusFactsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusFactsModel.swift; sourceTree = "<group>"; };
+		8676AA1F2D59F27E00EC6396 /* ZeusFactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusFactsViewModel.swift; sourceTree = "<group>"; };
+		8676AA242D59FA3500EC6396 /* ZeusMiniGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusMiniGamesView.swift; sourceTree = "<group>"; };
+		8676AA252D59FA3500EC6396 /* ZeusMiniGamesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusMiniGamesModel.swift; sourceTree = "<group>"; };
+		8676AA262D59FA3500EC6396 /* ZeusMiniGamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusMiniGamesViewModel.swift; sourceTree = "<group>"; };
+		8676AA2B2D5A167B00EC6396 /* ZeusPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPlayView.swift; sourceTree = "<group>"; };
+		8676AA2C2D5A167B00EC6396 /* ZeusPlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPlayModel.swift; sourceTree = "<group>"; };
+		8676AA2D2D5A167B00EC6396 /* ZeusPlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPlayViewModel.swift; sourceTree = "<group>"; };
+		8676AA322D5A43E800EC6396 /* ZeusNovelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusNovelView.swift; sourceTree = "<group>"; };
+		8676AA332D5A43E800EC6396 /* ZeusNovelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusNovelModel.swift; sourceTree = "<group>"; };
+		8676AA342D5A43E800EC6396 /* ZeusNovelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusNovelViewModel.swift; sourceTree = "<group>"; };
+		869686F92D5635CD00CCB852 /* ZeusPrehistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPrehistoryView.swift; sourceTree = "<group>"; };
+		869686FA2D5635CD00CCB852 /* ZeusPrehistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPrehistoryModel.swift; sourceTree = "<group>"; };
+		869686FB2D5635CD00CCB852 /* ZeusPrehistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPrehistoryViewModel.swift; sourceTree = "<group>"; };
+		869687002D5640C700CCB852 /* ZeusMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusMenuView.swift; sourceTree = "<group>"; };
+		869687012D5640C700CCB852 /* ZeusMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusMenuModel.swift; sourceTree = "<group>"; };
+		869687022D5640C700CCB852 /* ZeusMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusMenuViewModel.swift; sourceTree = "<group>"; };
+		869687062D5646EE00CCB852 /* SkrampCyr-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SkrampCyr-Regular.ttf"; sourceTree = "<group>"; };
+		869687092D56521300CCB852 /* ZeusTrophyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusTrophyView.swift; sourceTree = "<group>"; };
+		8696870A2D56521300CCB852 /* ZeusTrophyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusTrophyModel.swift; sourceTree = "<group>"; };
+		8696870B2D56521300CCB852 /* ZeusTrophyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusTrophyViewModel.swift; sourceTree = "<group>"; };
+		86ACCA382D5B21CE003181A3 /* ZeusFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusFinalView.swift; sourceTree = "<group>"; };
+		86ACCA392D5B21CE003181A3 /* ZeusFinalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusFinalModel.swift; sourceTree = "<group>"; };
+		86ACCA3A2D5B21CE003181A3 /* ZeusFinalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusFinalViewModel.swift; sourceTree = "<group>"; };
+		86ACCA3F2D5B63CF003181A3 /* ZeusFactsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusFactsDetailView.swift; sourceTree = "<group>"; };
+		86ACCA402D5B63CF003181A3 /* ZeusFactsDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusFactsDetailModel.swift; sourceTree = "<group>"; };
+		86ACCA412D5B63CF003181A3 /* ZeusFactsDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusFactsDetailViewModel.swift; sourceTree = "<group>"; };
+		86ACCA462D5B6868003181A3 /* ZeusCatchLightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusCatchLightView.swift; sourceTree = "<group>"; };
+		86ACCA472D5B6868003181A3 /* ZeusCatchLightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusCatchLightModel.swift; sourceTree = "<group>"; };
+		86ACCA482D5B6868003181A3 /* ZeusCatchLightViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusCatchLightViewModel.swift; sourceTree = "<group>"; };
+		86ACCA4D2D5B7AD8003181A3 /* ZeusLoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusLoseView.swift; sourceTree = "<group>"; };
+		86ACCA4E2D5B7AD8003181A3 /* ZeusLoseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusLoseModel.swift; sourceTree = "<group>"; };
+		86ACCA4F2D5B7AD8003181A3 /* ZeusLoseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusLoseViewModel.swift; sourceTree = "<group>"; };
+		86ACCA542D5B7FE6003181A3 /* ZeusWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusWinView.swift; sourceTree = "<group>"; };
+		86ACCA552D5B7FE6003181A3 /* ZeusWinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusWinModel.swift; sourceTree = "<group>"; };
+		86ACCA562D5B7FE6003181A3 /* ZeusWinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusWinViewModel.swift; sourceTree = "<group>"; };
+		86ACCA5B2D5B8513003181A3 /* ZeusPauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPauseView.swift; sourceTree = "<group>"; };
+		86ACCA5C2D5B8513003181A3 /* ZeusPauseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPauseModel.swift; sourceTree = "<group>"; };
+		86ACCA5D2D5B8513003181A3 /* ZeusPauseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPauseViewModel.swift; sourceTree = "<group>"; };
+		86ACCA622D5B914E003181A3 /* ZeusPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPuzzleView.swift; sourceTree = "<group>"; };
+		86ACCA632D5B914E003181A3 /* ZeusPuzzleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPuzzleModel.swift; sourceTree = "<group>"; };
+		86ACCA642D5B914E003181A3 /* ZeusPuzzleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeusPuzzleViewModel.swift; sourceTree = "<group>"; };
+		86ACCA692D5BBBB9003181A3 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +170,27 @@
 		86344FDC2D5567B700CBAE5A /* Zeus */ = {
 			isa = PBXGroup;
 			children = (
-				86344FDD2D5567B700CBAE5A /* ZeusApp.swift */,
-				86344FDF2D5567B700CBAE5A /* ContentView.swift */,
-				86344FE12D5567B800CBAE5A /* Assets.xcassets */,
+				86439F9F2D5C7B0100560F54 /* Application */,
+				86ACCA612D5B9142003181A3 /* ZeusPuzzleModule */,
+				86ACCA5A2D5B8505003181A3 /* ZeusPauseModule */,
+				86ACCA532D5B7FDA003181A3 /* ZeusWinModule */,
+				86ACCA4C2D5B7ACE003181A3 /* ZeusLoseModule */,
+				86ACCA452D5B6854003181A3 /* ZeusCatchLightModule */,
+				86ACCA3E2D5B63BA003181A3 /* ZeusFactsDetailModule */,
+				86ACCA372D5B21C0003181A3 /* ZeusFinalModule */,
+				8676AA312D5A43D800EC6396 /* ZeusNovelModule */,
+				8676AA2A2D5A161000EC6396 /* ZeusPlayModule */,
+				8676AA232D59FA2100EC6396 /* ZeusMiniGamesModule */,
+				8676AA1C2D59F27000EC6396 /* ZeusFactsModule */,
+				8636C0162D593BDA00754163 /* ZeusChapterModule */,
+				869687082D56520500CCB852 /* ZeusTrophyModule */,
+				869686FF2D5640B400CCB852 /* ZeusMenuModule */,
+				869686F82D56359800CCB852 /* ZeusPrehistoryModule */,
+				86344FFD2D5569A400CBAE5A /* ZeusLoadingModule */,
+				86344FF32D55681200CBAE5A /* ZeusExtensions */,
+				86344FEB2D5567BA00CBAE5A /* ZeusHelpers */,
+				86ACCA682D5BBBB0003181A3 /* UserDefaultsManager */,
+				86439F922D5C703000560F54 /* AudioManager */,
 				86344FE32D5567B800CBAE5A /* Preview Content */,
 			);
 			path = Zeus;
@@ -65,6 +202,272 @@
 				86344FE42D5567B800CBAE5A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86344FEB2D5567BA00CBAE5A /* ZeusHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				86344FF02D5567DF00CBAE5A /* ZeusImageName */,
+				86344FEF2D5567D900CBAE5A /* ZeusFont */,
+				86344FEC2D5567C200CBAE5A /* ZeusCustomButtons */,
+			);
+			path = ZeusHelpers;
+			sourceTree = "<group>";
+		};
+		86344FEC2D5567C200CBAE5A /* ZeusCustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				86344FED2D5567D700CBAE5A /* ZeusCustomButtons.swift */,
+			);
+			path = ZeusCustomButtons;
+			sourceTree = "<group>";
+		};
+		86344FEF2D5567D900CBAE5A /* ZeusFont */ = {
+			isa = PBXGroup;
+			children = (
+				869687062D5646EE00CCB852 /* SkrampCyr-Regular.ttf */,
+				86344FFA2D55691D00CBAE5A /* yeast.otf */,
+			);
+			path = ZeusFont;
+			sourceTree = "<group>";
+		};
+		86344FF02D5567DF00CBAE5A /* ZeusImageName */ = {
+			isa = PBXGroup;
+			children = (
+				86344FF12D5567E900CBAE5A /* ZeusImageName.swift */,
+			);
+			path = ZeusImageName;
+			sourceTree = "<group>";
+		};
+		86344FF32D55681200CBAE5A /* ZeusExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				86344FF72D55685100CBAE5A /* ZeusTextOutlineExtension */,
+				86344FF62D55684900CBAE5A /* ZeusTextExtension */,
+			);
+			path = ZeusExtensions;
+			sourceTree = "<group>";
+		};
+		86344FF62D55684900CBAE5A /* ZeusTextExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86344FF42D55682000CBAE5A /* ZeusTextExtension.swift */,
+			);
+			path = ZeusTextExtension;
+			sourceTree = "<group>";
+		};
+		86344FF72D55685100CBAE5A /* ZeusTextOutlineExtension */ = {
+			isa = PBXGroup;
+			children = (
+				86344FF82D55686400CBAE5A /* ZeusTextOutlineExtension.swift */,
+			);
+			path = ZeusTextOutlineExtension;
+			sourceTree = "<group>";
+		};
+		86344FFD2D5569A400CBAE5A /* ZeusLoadingModule */ = {
+			isa = PBXGroup;
+			children = (
+				86344FFE2D5569AE00CBAE5A /* ZeusLoadingView.swift */,
+				86344FFF2D5569AE00CBAE5A /* ZeusLoadingModel.swift */,
+				863450002D5569AE00CBAE5A /* ZeusLoadingViewModel.swift */,
+			);
+			path = ZeusLoadingModule;
+			sourceTree = "<group>";
+		};
+		8636C0162D593BDA00754163 /* ZeusChapterModule */ = {
+			isa = PBXGroup;
+			children = (
+				8636C0172D593BF500754163 /* ZeusChapterView.swift */,
+				8636C0182D593BF500754163 /* ZeusChapterModel.swift */,
+				8636C0192D593BF500754163 /* ZeusChapterViewModel.swift */,
+			);
+			path = ZeusChapterModule;
+			sourceTree = "<group>";
+		};
+		86439F922D5C703000560F54 /* AudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				86439F952D5C703C00560F54 /* Sounds */,
+				86439F962D5C703F00560F54 /* Manager */,
+			);
+			path = AudioManager;
+			sourceTree = "<group>";
+		};
+		86439F952D5C703C00560F54 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				86439F992D5C709E00560F54 /* firstStage.mp3 */,
+				86439F972D5C709E00560F54 /* menu.wav */,
+				86439F982D5C709E00560F54 /* secondStage.mp3 */,
+				86439F9A2D5C709E00560F54 /* thirdStage.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		86439F962D5C703F00560F54 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				86439F932D5C703A00560F54 /* AudioManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		86439F9F2D5C7B0100560F54 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				86344FE12D5567B800CBAE5A /* Assets.xcassets */,
+				86344FFC2D55694F00CBAE5A /* Info.plist */,
+				86344FDD2D5567B700CBAE5A /* ZeusApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8676AA1C2D59F27000EC6396 /* ZeusFactsModule */ = {
+			isa = PBXGroup;
+			children = (
+				8676AA1D2D59F27E00EC6396 /* ZeusFactsView.swift */,
+				8676AA1E2D59F27E00EC6396 /* ZeusFactsModel.swift */,
+				8676AA1F2D59F27E00EC6396 /* ZeusFactsViewModel.swift */,
+			);
+			path = ZeusFactsModule;
+			sourceTree = "<group>";
+		};
+		8676AA232D59FA2100EC6396 /* ZeusMiniGamesModule */ = {
+			isa = PBXGroup;
+			children = (
+				8676AA242D59FA3500EC6396 /* ZeusMiniGamesView.swift */,
+				8676AA252D59FA3500EC6396 /* ZeusMiniGamesModel.swift */,
+				8676AA262D59FA3500EC6396 /* ZeusMiniGamesViewModel.swift */,
+			);
+			path = ZeusMiniGamesModule;
+			sourceTree = "<group>";
+		};
+		8676AA2A2D5A161000EC6396 /* ZeusPlayModule */ = {
+			isa = PBXGroup;
+			children = (
+				8676AA2B2D5A167B00EC6396 /* ZeusPlayView.swift */,
+				8676AA2C2D5A167B00EC6396 /* ZeusPlayModel.swift */,
+				8676AA2D2D5A167B00EC6396 /* ZeusPlayViewModel.swift */,
+			);
+			path = ZeusPlayModule;
+			sourceTree = "<group>";
+		};
+		8676AA312D5A43D800EC6396 /* ZeusNovelModule */ = {
+			isa = PBXGroup;
+			children = (
+				8676AA322D5A43E800EC6396 /* ZeusNovelView.swift */,
+				8676AA332D5A43E800EC6396 /* ZeusNovelModel.swift */,
+				8676AA342D5A43E800EC6396 /* ZeusNovelViewModel.swift */,
+			);
+			path = ZeusNovelModule;
+			sourceTree = "<group>";
+		};
+		869686F82D56359800CCB852 /* ZeusPrehistoryModule */ = {
+			isa = PBXGroup;
+			children = (
+				869686F92D5635CD00CCB852 /* ZeusPrehistoryView.swift */,
+				869686FA2D5635CD00CCB852 /* ZeusPrehistoryModel.swift */,
+				869686FB2D5635CD00CCB852 /* ZeusPrehistoryViewModel.swift */,
+			);
+			path = ZeusPrehistoryModule;
+			sourceTree = "<group>";
+		};
+		869686FF2D5640B400CCB852 /* ZeusMenuModule */ = {
+			isa = PBXGroup;
+			children = (
+				869687002D5640C700CCB852 /* ZeusMenuView.swift */,
+				869687012D5640C700CCB852 /* ZeusMenuModel.swift */,
+				869687022D5640C700CCB852 /* ZeusMenuViewModel.swift */,
+			);
+			path = ZeusMenuModule;
+			sourceTree = "<group>";
+		};
+		869687082D56520500CCB852 /* ZeusTrophyModule */ = {
+			isa = PBXGroup;
+			children = (
+				869687092D56521300CCB852 /* ZeusTrophyView.swift */,
+				8696870A2D56521300CCB852 /* ZeusTrophyModel.swift */,
+				8696870B2D56521300CCB852 /* ZeusTrophyViewModel.swift */,
+			);
+			path = ZeusTrophyModule;
+			sourceTree = "<group>";
+		};
+		86ACCA372D5B21C0003181A3 /* ZeusFinalModule */ = {
+			isa = PBXGroup;
+			children = (
+				86ACCA382D5B21CE003181A3 /* ZeusFinalView.swift */,
+				86ACCA392D5B21CE003181A3 /* ZeusFinalModel.swift */,
+				86ACCA3A2D5B21CE003181A3 /* ZeusFinalViewModel.swift */,
+			);
+			path = ZeusFinalModule;
+			sourceTree = "<group>";
+		};
+		86ACCA3E2D5B63BA003181A3 /* ZeusFactsDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				86ACCA3F2D5B63CF003181A3 /* ZeusFactsDetailView.swift */,
+				86ACCA402D5B63CF003181A3 /* ZeusFactsDetailModel.swift */,
+				86ACCA412D5B63CF003181A3 /* ZeusFactsDetailViewModel.swift */,
+			);
+			path = ZeusFactsDetailModule;
+			sourceTree = "<group>";
+		};
+		86ACCA452D5B6854003181A3 /* ZeusCatchLightModule */ = {
+			isa = PBXGroup;
+			children = (
+				86ACCA462D5B6868003181A3 /* ZeusCatchLightView.swift */,
+				86ACCA472D5B6868003181A3 /* ZeusCatchLightModel.swift */,
+				86ACCA482D5B6868003181A3 /* ZeusCatchLightViewModel.swift */,
+			);
+			path = ZeusCatchLightModule;
+			sourceTree = "<group>";
+		};
+		86ACCA4C2D5B7ACE003181A3 /* ZeusLoseModule */ = {
+			isa = PBXGroup;
+			children = (
+				86ACCA4D2D5B7AD8003181A3 /* ZeusLoseView.swift */,
+				86ACCA4E2D5B7AD8003181A3 /* ZeusLoseModel.swift */,
+				86ACCA4F2D5B7AD8003181A3 /* ZeusLoseViewModel.swift */,
+			);
+			path = ZeusLoseModule;
+			sourceTree = "<group>";
+		};
+		86ACCA532D5B7FDA003181A3 /* ZeusWinModule */ = {
+			isa = PBXGroup;
+			children = (
+				86ACCA542D5B7FE6003181A3 /* ZeusWinView.swift */,
+				86ACCA552D5B7FE6003181A3 /* ZeusWinModel.swift */,
+				86ACCA562D5B7FE6003181A3 /* ZeusWinViewModel.swift */,
+			);
+			path = ZeusWinModule;
+			sourceTree = "<group>";
+		};
+		86ACCA5A2D5B8505003181A3 /* ZeusPauseModule */ = {
+			isa = PBXGroup;
+			children = (
+				86ACCA5B2D5B8513003181A3 /* ZeusPauseView.swift */,
+				86ACCA5C2D5B8513003181A3 /* ZeusPauseModel.swift */,
+				86ACCA5D2D5B8513003181A3 /* ZeusPauseViewModel.swift */,
+			);
+			path = ZeusPauseModule;
+			sourceTree = "<group>";
+		};
+		86ACCA612D5B9142003181A3 /* ZeusPuzzleModule */ = {
+			isa = PBXGroup;
+			children = (
+				86ACCA622D5B914E003181A3 /* ZeusPuzzleView.swift */,
+				86ACCA632D5B914E003181A3 /* ZeusPuzzleModel.swift */,
+				86ACCA642D5B914E003181A3 /* ZeusPuzzleViewModel.swift */,
+			);
+			path = ZeusPuzzleModule;
+			sourceTree = "<group>";
+		};
+		86ACCA682D5BBBB0003181A3 /* UserDefaultsManager */ = {
+			isa = PBXGroup;
+			children = (
+				86ACCA692D5BBBB9003181A3 /* UserDefaultsManager.swift */,
+			);
+			path = UserDefaultsManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +528,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86439F9B2D5C709E00560F54 /* menu.wav in Resources */,
+				86439F9D2D5C709E00560F54 /* firstStage.mp3 in Resources */,
+				869687072D56470000CCB852 /* SkrampCyr-Regular.ttf in Resources */,
+				86439F9E2D5C709E00560F54 /* thirdStage.mp3 in Resources */,
+				86344FFB2D55693700CBAE5A /* yeast.otf in Resources */,
 				86344FE52D5567B800CBAE5A /* Preview Assets.xcassets in Resources */,
 				86344FE22D5567B800CBAE5A /* Assets.xcassets in Resources */,
+				86439F9C2D5C709E00560F54 /* secondStage.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +546,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86344FE02D5567B700CBAE5A /* ContentView.swift in Sources */,
+				869686FC2D5635CD00CCB852 /* ZeusPrehistoryView.swift in Sources */,
+				8696870C2D56521300CCB852 /* ZeusTrophyView.swift in Sources */,
+				8696870D2D56521300CCB852 /* ZeusTrophyModel.swift in Sources */,
+				86ACCA652D5B914E003181A3 /* ZeusPuzzleView.swift in Sources */,
+				86ACCA662D5B914E003181A3 /* ZeusPuzzleModel.swift in Sources */,
+				86ACCA672D5B914E003181A3 /* ZeusPuzzleViewModel.swift in Sources */,
+				8696870E2D56521300CCB852 /* ZeusTrophyViewModel.swift in Sources */,
+				869686FD2D5635CD00CCB852 /* ZeusPrehistoryModel.swift in Sources */,
+				869686FE2D5635CD00CCB852 /* ZeusPrehistoryViewModel.swift in Sources */,
+				8676AA202D59F27E00EC6396 /* ZeusFactsView.swift in Sources */,
+				8676AA272D59FA3500EC6396 /* ZeusMiniGamesView.swift in Sources */,
+				8676AA282D59FA3500EC6396 /* ZeusMiniGamesModel.swift in Sources */,
+				86ACCA572D5B7FE6003181A3 /* ZeusWinView.swift in Sources */,
+				86ACCA582D5B7FE6003181A3 /* ZeusWinModel.swift in Sources */,
+				86ACCA592D5B7FE6003181A3 /* ZeusWinViewModel.swift in Sources */,
+				8676AA292D59FA3500EC6396 /* ZeusMiniGamesViewModel.swift in Sources */,
+				8676AA212D59F27E00EC6396 /* ZeusFactsModel.swift in Sources */,
+				8676AA222D59F27E00EC6396 /* ZeusFactsViewModel.swift in Sources */,
+				8676AA2E2D5A167B00EC6396 /* ZeusPlayView.swift in Sources */,
+				8676AA2F2D5A167B00EC6396 /* ZeusPlayModel.swift in Sources */,
+				86ACCA3B2D5B21CE003181A3 /* ZeusFinalView.swift in Sources */,
+				86ACCA422D5B63CF003181A3 /* ZeusFactsDetailView.swift in Sources */,
+				86ACCA432D5B63CF003181A3 /* ZeusFactsDetailModel.swift in Sources */,
+				86ACCA442D5B63CF003181A3 /* ZeusFactsDetailViewModel.swift in Sources */,
+				86ACCA492D5B6868003181A3 /* ZeusCatchLightView.swift in Sources */,
+				86ACCA4A2D5B6868003181A3 /* ZeusCatchLightModel.swift in Sources */,
+				86ACCA4B2D5B6868003181A3 /* ZeusCatchLightViewModel.swift in Sources */,
+				86ACCA3C2D5B21CE003181A3 /* ZeusFinalModel.swift in Sources */,
+				86ACCA3D2D5B21CE003181A3 /* ZeusFinalViewModel.swift in Sources */,
+				8676AA302D5A167B00EC6396 /* ZeusPlayViewModel.swift in Sources */,
+				86344FF52D55682000CBAE5A /* ZeusTextExtension.swift in Sources */,
+				86344FF22D5567E900CBAE5A /* ZeusImageName.swift in Sources */,
+				863450012D5569AE00CBAE5A /* ZeusLoadingView.swift in Sources */,
+				869687032D5640C700CCB852 /* ZeusMenuView.swift in Sources */,
+				869687042D5640C700CCB852 /* ZeusMenuModel.swift in Sources */,
+				869687052D5640C700CCB852 /* ZeusMenuViewModel.swift in Sources */,
+				8676AA352D5A43E800EC6396 /* ZeusNovelView.swift in Sources */,
+				86ACCA502D5B7AD8003181A3 /* ZeusLoseView.swift in Sources */,
+				86ACCA512D5B7AD8003181A3 /* ZeusLoseModel.swift in Sources */,
+				86ACCA522D5B7AD8003181A3 /* ZeusLoseViewModel.swift in Sources */,
+				8676AA362D5A43E800EC6396 /* ZeusNovelModel.swift in Sources */,
+				8676AA372D5A43E800EC6396 /* ZeusNovelViewModel.swift in Sources */,
+				86ACCA5E2D5B8513003181A3 /* ZeusPauseView.swift in Sources */,
+				86ACCA5F2D5B8513003181A3 /* ZeusPauseModel.swift in Sources */,
+				86ACCA602D5B8513003181A3 /* ZeusPauseViewModel.swift in Sources */,
+				8636C01A2D593BF500754163 /* ZeusChapterView.swift in Sources */,
+				8636C01B2D593BF500754163 /* ZeusChapterModel.swift in Sources */,
+				8636C01C2D593BF500754163 /* ZeusChapterViewModel.swift in Sources */,
+				863450022D5569AE00CBAE5A /* ZeusLoadingModel.swift in Sources */,
+				863450032D5569AE00CBAE5A /* ZeusLoadingViewModel.swift in Sources */,
+				86ACCA6A2D5BBBB9003181A3 /* UserDefaultsManager.swift in Sources */,
 				86344FDE2D5567B700CBAE5A /* ZeusApp.swift in Sources */,
+				86344FF92D55686400CBAE5A /* ZeusTextOutlineExtension.swift in Sources */,
+				86439F942D5C703A00560F54 /* AudioManager.swift in Sources */,
+				86344FEE2D5567D700CBAE5A /* ZeusCustomButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +737,12 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zeus/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +767,12 @@
 				DEVELOPMENT_TEAM = 59WWFG63NN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zeus/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
